@@ -78,6 +78,7 @@ section {
 /* added self image id to align and disply my picture properly as a circle. */
 #selfimage {
   display: block;
+  box-shadow: 0px 0px 25px;
   margin: 50px auto;
   width: 400px;
   height: 400px;
@@ -111,8 +112,11 @@ textarea {
 }
   /* changed color to purple and true white*/
 button {
-  height: 40px;
-  width: 120px;
+  box-shadow: 0 0 5px black;
+  border-radius: 15px;
+  margin:13px;
+  height: 45px;
+  width: 125px;
   background-color: rgb(80, 12, 129);
-  color: white
+  color: white;
 }
